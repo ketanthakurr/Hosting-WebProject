@@ -35,27 +35,27 @@ let movies = [
     {
         name: 'Mount Fuji',
         des: 'Without a doubt Japans most recognizable landmark, majestic Mount Fuji (Fuji-san) is also the countrys highest mountain peak.',
-        image:'/public/images/mountfuji.jpg'
+        image:'images/mountfuji.jpg'
     },
     {
         name: 'The Matterhorn',
         des: 'he Matterhorn, Switzerlands iconic pointed peak is one of the highest mountains in the Alps. On the border with Italy, this legendary peak rises to 4,478 meters,',
-        image:'/public/images/metter.jpg'
+        image:'images/metter.jpg'
     },
     {
         name: "Bali, Indonesia",
         des: "Living idealized suburban lives, super-powered beings Wanda and Vision begin to suspect that everything is not as it seems.",
-        image:"/public/images/bali.jpg"
+        image:"images/bali.jpg"
     },
     {
         name: 'New Orleans:',
         des: 'Raya, a warrior, sets out to track down Sisu, a dragon, who transferred all her powers into a magical gem which is now scattered all over the kingdom of Kumandra, dividing its people.',
-        image: '/public/images/orlens.jpg'
+        image: 'images/orlens.jpg'
     },
     {
         name: 'Kerry, Ireland',
         des: 'Set in a beautiful seaside town on the Italian Riviera, the original animated feature is a coming-of-age story about one young boy experiencing an unforgettable summer filled with gelato, pasta and endless scooter rides. Luca shares these adventures with his newfound best friend, but all the fun is threatened by a deeply held secret: he is a sea monster from another world just below the water surface.',
-        image: '/public/images/kerry.jpg'
+        image: 'images/kerry.jpg'
     }
 ]
 

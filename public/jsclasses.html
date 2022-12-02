@@ -9,15 +9,15 @@
 </head>
 <body>
   <nav class="navbar" id="navbar">
-    <a href="Main.html"><img src="/static/images/logofinal1.png" class="brand-logo" alt="logo"></a>
+    <a href="Main.html"><img src="images/logofinal1.png" class="brand-logo" alt="logo"></a>
     <ul class="nav-links">
-        <li class="nav-items dropnavitems"> <a href="/main" class="dropcont">Home</a></li>
-        <li class="nav-items dropnavitems"> <a href="/Travel" class="dropcont">Travel Resources</a></li>
+        <li class="nav-items dropnavitems"> <a href="Main.html" class="dropcont">Home</a></li>
+        <li class="nav-items dropnavitems"> <a href="Travel.html" class="dropcont">Travel Resources</a></li>
         <li class="nav-items dropdown dropnavitems"> <a href="javascript:void(0)" class="dropbtn dropcont">Destination</a>
             <div class="dropdown-content">
-                <a href="/India" class="dropcont">India</a>
-                <a href="/greece" class="dropcont">Greece</a>
-                <a href="/Korea" class="dropcont">Korea</a>
+                <a href="India.html" class="dropcont">India</a>
+                <a href="greece.html" class="dropcont">Greece</a>
+                <a href="Korea.html" class="dropcont">Korea</a>
                 <a href="#" class="dropcont">Italy</a>
                 <a href="#" class="dropcont">France</a>
                 <a href="#" class="dropcont">Paris</a>
@@ -50,7 +50,7 @@
           let body=document.querySelector("body");
           p1.innerHTML="AFRICAN SAFARI";
           h1.innerHTML="Best african safari tours";
-          a6.src="/static/images/africaBanner.jpg"; 
+          a6.src="images/africaBanner.jpg"; 
 
           body.append(a6);
           body.append(p);
@@ -93,7 +93,7 @@
           let q0 =document.createElement("q0");
           let a=document.createElement("img");
 
-          a.src="/static/images/af1.jpg";
+          a.src="images/af1.jpg";
 
           let body=document.querySelector("body");   
           q.innerHTML="East Africa's Mara, Crater & Serengeti Migration";
@@ -137,7 +137,7 @@
             let body=document.querySelector("body");
             q1.innerHTML="Honeymoon Cape Town and Kruger";
             q2.innerHTML="Two of South Africa's landmark destinations feature on this classic 9-day combination tour ";
-            a1.src="static/images/af2.jpg";
+            a1.src="images/af2.jpg";
 
             body.append(q1);
             body.append(q2);
@@ -177,7 +177,7 @@
             let body=document.querySelector("body");
             q3.innerHTML="Private Guided Botswana";
             q4.innerHTML="Four incredible southern Africa destinations await the adventure traveller on this 14-day experiential safari: the Okavango Delta in northern Botswana, and Victoria Falls ";
-            a2.src="/static/images/af3.jpg";
+            a2.src="images/af3.jpg";
 
             body.append(q3);
             body.append(q4);
@@ -216,7 +216,7 @@
             let body=document.querySelector("body");
             q5.innerHTML="Crater, Serengeti & Mara";
             q6.innerHTML="Combining Kenya’s Masai Mara with Tanzania’s Serengeti already promises a rewarding safari - when the Ngorongoro Crater is added to the mix.";
-            a3.src="/static/images/af4.jpg";
+            a3.src="images/af4.jpg";
 
             body.append(q5);
             body.append(q6);
@@ -255,7 +255,7 @@
             let body=document.querySelector("body");
             q7.innerHTML="Tanzania Migration & Uganda Gorillas";
             q8.innerHTML="Perfect for the traveller looking for an authentic safari experience, this 15-day Kenya safari and gorilla adventure focuses on special cultural encounters";
-            a4.src="/static/images/af5.jpg";
+            a4.src="images/af5.jpg";
 
             body.append(q7);
             body.append(q8);
@@ -296,7 +296,7 @@
             let body=document.querySelector("body");
             q9.innerHTML="Sabi Sands, Cape Town ";
             q10.innerHTML="Experience three highly diverse and rewarding destinations on this African safari tour. Start in Kenya’s flagship Masai Mara National Reserve";
-            a5.src="/static/images/af6.jpg";
+            a5.src="images/af6.jpg";
 
             body.append(q9);
             body.append(q10);
@@ -339,7 +339,7 @@
 
     <script>
       async function loadIntroPage() {
-        let request = new Request("/static/africa.json");
+        let request = new Request("africa.json");
         let response = await fetch(request);
         let json_obj = await response.json();
 
@@ -470,13 +470,13 @@
           <p class="disclaimer-before"> This is the prototype of the site for the WEB Programming under the mentor Mrs. Kiran Khatter</p>
           <p class="btn-title">Contact Us</p>
           <a href="https://www.facebook.com/BMLMunjalUniversity/" target="_blank" class="btn">
-              <i class="fab fa-facebook-f"><img src="/static/images/facebook.png" class="img1" alt=""></i> 
+              <i class="fab fa-facebook-f"><img src="images/facebook.png" class="img1" alt=""></i> 
           </a>
           <a href="https://twitter.com/bmluniv?lang=en" target="_blank" class="btn">
-              <i class="fab fa-twitter"><img src="/static/images/tweetbird.png" class="img2" alt=""></i> 
+              <i class="fab fa-twitter"><img src="images/tweetbird.png" class="img2" alt=""></i> 
           </a>
           <a href="https://www.instagram.com/bmlmunjaluniversity/" target="_blank" class="btn">
-              <i class="fab fa-instagram"><img src="/static/images/instagram.png" alt="" class="img3"></i> 
+              <i class="fab fa-instagram"><img src="images/instagram.png" alt="" class="img3"></i> 
           </a>
 
           <p class="disclaimer">Copyright 1999-2022 by Ketan-Anushka-Mahaansh. All Rights Reserved.</p>
